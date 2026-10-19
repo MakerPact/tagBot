@@ -126,8 +126,8 @@ const tags: Record<string, Tag> = {
             name: '5. Are your drivers installed?',
             value:
               "Check your drivers. Sometimes uninstalling them, reinstalling them, and rebooting the PC fixes it. Clone boards often use the **CH340 USB-Serial** chip, which isn't supported by default. Check the name printed on the small SMD USB-Serial chip on your board (not the big one).\n" +
-              '- **[How to install CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)**\n' +
-              "- If you have an FTDI chip: **[how to install FTDI drivers](https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/all)**. If you have neither, search for the name of your board's USB-Serial chip.",
+              '- **[How to install CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all#:~:text=of%20your%20choice!-,Meet%20the%20CH340,-There%20are%20a)**\n' +
+              "- If you have an FTDI chip: **[how to install FTDI drivers](https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/all#:~:text=install%20the%20drivers.-,Windows%20%2D%20Quick%20and%20Easy,-Note%3A%20The)**. If you have neither, search for the name of your board's USB-Serial chip.",
           },
           {
             name: '6. Is your cable faulty or capable of sending data?',
@@ -392,7 +392,7 @@ const tags: Record<string, Tag> = {
           'What Coding Language Does Arduino IDE Use? What Language Should You Learn?',
         )
         .addFields({
-          name: 'Arduino IDE code is normally C++14',
+          name: 'Arduino IDE code is normally C++11/14',
           value:
             'The Arduino IDE mainly uses **C++14**, plus some added functions for the Arduino platform, listed at https://www.arduino.cc/reference/en/. MicroPython and other Python variants are sometimes used, but very few boards support them and their library selection is small. Their community, examples, and tutorials are also very limited, so they are rarely used in this community and never used in real-world **commercial or industrial** applications. Help for them is hard to find, so we do not recommend them unless you already know them and have a specific reason to use them. If possible, learn C++14. It is the most widely used language in the Arduino community and is also used in many other areas, such as game development, web development, and more.',
         }),
