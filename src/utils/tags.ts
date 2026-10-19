@@ -103,7 +103,7 @@ const tags: Record<string, Tag> = {
           {
             name: '1. Is your Serial monitor, or any 3D printer software open?',
             value:
-              'If it is, close it, so the IDE can upload without a conflict. Only have one IDE open at a time, since multiple open IDEs can cause problems. Close them all before uploading, and try restarting your PC.',
+              'If YES, close it, so the IDE can upload without a conflict. Only have one IDE open at a time, since multiple open IDEs can cause problems. Close them all before uploading, and try restarting your PC.',
           },
           {
             name: '2. Have you selected the right port in your IDE?',
@@ -163,7 +163,7 @@ const tags: Record<string, Tag> = {
           },
           {
             name: '12. Is this a problem with your IDE?',
-            value: "If you think that's the case, try reinstalling the IDE.",
+            value: "If you think that's the case, try reinstalling the IDE. Only download the ide from the Arduino website. NOT from the MS store. Do not allow the IDE to install to ONEDRIVE, or other cloud storage. Use github or other system like this to backup your projects, but cloud drives are often to slow and will error out when the ide is aempting to pull files from them.",
           },
         ),
     ],
