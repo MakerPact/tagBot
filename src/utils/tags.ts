@@ -346,7 +346,7 @@ const tags: Record<string, Tag> = {
           {
             name: 'Boards that are __NOT__ HID compliant',
             value:
-              'Uno (R3 or older), Mega, Nano (328), and Pro Mini cannot be used as HID devices. Attempting to do so will result in a bricked board.',
+              'Uno (R3 or older), Mega, Nano (328), and Pro Mini cannot be used as HID devices. Attempting to do so will result in a bricked board Most of the time. We do not assist people with that in this server, or help people recover after they have installed a bootloader to there board allready.',
           },
           {
             name: 'Boards that __ARE__ HID compliant',
