@@ -39,7 +39,7 @@ const tags: Record<string, Tag> = {
         )
         .setTitle('🚫 NO AI ZONE')
         .setDescription(
-          "This server is a **NO AI** zone. AI-generated content is not allowed. That includes ChatGPT, Midjourney, DALL-E and similar tools, and it covers code, schematics, and anything else AI can generate, including requests for help with it, and advice.\n\nIf you have a question, ask the community. You learn more by working through a problem with other members than by having a tool do it for you.\n\nDo NOT use AI to reply to users. If someone is using AI for their project, do not assist. Repotr AI usage to mods for its removal.",
+          "This server is a **NO AI** zone. AI-generated content is not allowed. That includes ChatGPT, Midjourney, DALL-E and similar tools, and it covers code, schematics, and anything else AI can generate, including requests for help with it, and advice.\n\nIf you have a question, ask the community. You learn more by working through a problem with other members than by having a tool do it for you.\n\nDo NOT use AI to reply to users. If someone is using AI for their project, do not assist. Report AI usage to mods for its removal.",
         )
         .setFooter({
           text: 'Help us keep this a NO AI zone.\n\nAnswering someone with AI does them no favors. It holds back their learning.',
